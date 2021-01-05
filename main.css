@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#time {
+  font-size: 8rem;
+}
+
+#wish {
+  margin-top: 0.5rem;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+#focus-q {
+  margin-top: 1.5rem;
+  font-size: 2.2rem;
+  color: #333333;
+}
+
+#focus {
+  margin-top: 0.5rem;
+  color: #333333;
+  font-size: 2rem;
+}
+
+@media(max-width: 600px) {
+  #time {
+    font-size: 6rem;
+  }
+  #wish {
+    font-size: 1.8rem;
+  }
+  #focus, #focus-q {
+    font-size: 1.2rem;
+  }
+}
+
+@media(max-width: 500px) {
+  #time {
+    font-size: 4.7rem;
+  }
+  #wish {
+    font-size: 1.3rem;
+  }
+  #focus, #focus-q {
+    font-size: 1rem;
+  }
+}
